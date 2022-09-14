@@ -27,7 +27,7 @@
   <h2>Project Components</h2>
     <h3>Micrcontroller</h3>
       <p>
-       <br>ATmega16</br>
+       <br>- ATmega16</br>
       </p>
     <h3>Drivers</h3>
       <p>
@@ -37,9 +37,9 @@
       </p>
     <h3>Hardware</h3>
       <p>
-       <br>One push button connected to INT0 pin for pedestrian.</br>
-       <br>Three LEDs for cars - Grren, Yellow and Red connected to PORTA, PINs 0, 1 and 2.</br>
-       <br>Three LEDs for pedestrians - Grren, Yellow and Red connected to PORTA, PINs 3, 4 and 5.</br>
+       <br>- One push button connected to INT0 pin for pedestrian.</br>
+       <br>- Three LEDs for cars - Grren, Yellow and Red connected to PORTA, PINs 0, 1 and 2.</br>
+       <br>- Three LEDs for pedestrians - Grren, Yellow and Red connected to PORTA, PINs 3, 4 and 5.</br>
       </p>
   <h2>Files</h2>
     <p>main.c : This file contains the code of the project.</p>
