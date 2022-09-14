@@ -3,17 +3,20 @@
   <h2>Project Description</h2>
     <h3>Normal Mode</h3>
       <p>
-       <br></br>
-       <br></br>
-       <br></br>
-       <br></br>
+       <br>Cars lights will be changed every five seconds starting from green then yellow then red then yellow then green.</br>
+       <br>The cars yellow light will blink for five seconds before moving to green or red lights.</br>
       </p>
     <h3>Pedestrian Mode</h3>
       <p>
-       <br></br>
-       <br></br>
-       <br></br>
-       <br></br>
+       <br>Change from normal mode to pedestrian mode when the pedestrian button is pressed.</br>
+       <br>If pressed when the cars red light is on, the pedestrian green light and the cars red lights will be on for five seconds, this means that pedestrians can              cross the street while the pedestrian green light is on.
+       </br>
+       <br>If pressed when the cars green light is on or the cars yellow light is blinking, the pedestrian red light will be on then both yellow lights start to blink            for five seconds, then the cars red light and pedestrian green light are on for five seconds, this means that pedestrian must wait until the green light is            on.
+       </br>
+       <br>At the end of the two states, the cars red light will be off and both yellow light start blinkirlg for 5 seconds and the pedestrian green light is still                on.
+       </br>
+       <br>After the five secands the pedestrian green light will be off and both the pedestrian red light and the cars green light will be on. </br>
+       <br>Traffic lights signals are going to the normal mode again.</br>
       </p>
   <h2>Project Specifications</h2>
     <p>
