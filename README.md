@@ -37,7 +37,7 @@
       </p>
     <h3>Hardware</h3>
       <p>
-       <br>one push button connected to INT0 pin for pedestrian.</br>
+       <br>One push button connected to INT0 pin for pedestrian.</br>
        <br>Three LEDs for cars - Grren, Yellow and Red connected to PORTA, PINs 0, 1 and 2.</br>
        <br>Three LEDs for pedestrians - Grren, Yellow and Red connected to PORTA, PINs 3, 4 and 5.</br>
       </p>
