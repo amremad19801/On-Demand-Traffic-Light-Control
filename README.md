@@ -15,7 +15,7 @@
        </br>
        <br>At the end of the two states, the cars red light will be off and both yellow light start blinkirlg for 5 seconds and the pedestrian green light is still                on.
        </br>
-       <br>After the five secands the pedestrian green light will be off and both the pedestrian red light and the cars green light will be on. </br>
+       <br>After the five seconds the pedestrian green light will be off and both the pedestrian red light and the cars green light will be on. </br>
        <br>Traffic lights signals are going to the normal mode again.</br>
       </p>
   <h2>Project Specifications</h2>
