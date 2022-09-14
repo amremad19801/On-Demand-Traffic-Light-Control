@@ -1,5 +1,5 @@
 <h1>On-Demand-Traffic-Light-Control-System</h1>
-  <p>The project is a stop watch system that controls the stop-watch time and displays it on 7-segments.</p>
+  <p>The project is an on deman trffic light control system that contols both the traffic and pedestrian lights.</p>
   <h2>Project Description</h2>
     <h3>Normal Mode</h3>
       <p>
