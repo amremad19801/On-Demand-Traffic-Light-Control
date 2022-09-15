@@ -45,6 +45,6 @@
        <br>- Three LEDs for pedestrians - Grren, Yellow and Red connected to PORTA, PINs 3, 4 and 5.</br>
       </p>
   <h2>Files</h2>
-    ![name-of-you-image](https://![image]([https://user-images.githubusercontent.com/104625612/190288043-8048d7e2-eaf0-40bb-930c-b5d2f8f618f7.png)](https://github.com/amremad19801/On-Demand-Traffic-Light-Control-System/blob/main/Schematic.png?raw=true))
+    ![Schematic](https://github.com/amremad19801/On-Demand-Traffic-Light-Control-System/blob/main/Schematic.png?raw=true)
   <h2>Files</h2>
     <p>main.c : This file contains the code of the project.</p>
