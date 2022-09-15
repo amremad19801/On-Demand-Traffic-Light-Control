@@ -13,7 +13,6 @@ typedef unsigned char uint8;
 typedef unsigned short uint16;
 
 uint8 i;
-
 uint8 g_Flag_Yellow = 0;
 
 
@@ -49,7 +48,7 @@ ISR(INT0_vect)
 		PORTC |= (1 << PC3);
 		PORTC &= ~(1 << PC5);
 
-		//		Timer1_Delay(5000);
+//		Timer1_Delay(5000);
 		_delay_ms(5000);
 	}
 	else if((g_Flag_Yellow == 1) || (PORTC & (1 << PC0)))
@@ -61,7 +60,7 @@ ISR(INT0_vect)
 		{
 			PORTC ^= (1 << PC1);
 			PORTC ^= (1 << PC4);
-			//			Timer1_Delay(1000);
+//			Timer1_Delay(1000);
 			_delay_ms(1000);
 		}
 		PORTC &= ~(1 << PC0);
@@ -71,14 +70,14 @@ ISR(INT0_vect)
 
 		PORTC |= (1 << PC2);
 		PORTC |= (1 << PC3);
-		//		Timer1_Delay(5000);
+//		Timer1_Delay(5000);
 		_delay_ms(5000);
 	}
 	for(i = 0; i < 5; i++)
 	{
 		PORTC ^= (1 << PC1);
 		PORTC ^= (1 << PC4);
-		//		Timer1_Delay(1000);
+//		Timer1_Delay(1000);
 		_delay_ms(1000);
 	}
 	PORTC &= ~(1 << PC1);
@@ -91,7 +90,7 @@ ISR(INT0_vect)
 
 	GIFR |= (1 << INTF0);
 
-	//	__asm volatile("jmp 0x00");
+//	__asm volatile("jmp 0x00");
 }
 
 int main(void)
@@ -108,14 +107,14 @@ int main(void)
 		/* Code */
 
 		PORTC |= (1 << PC0);
-		//		Timer1_Delay(5000);
+//		Timer1_Delay(5000);
 		_delay_ms(5000);
 
 		g_Flag_Yellow = 1;
 		for(i = 0; i < 5; i++)
 		{
 			PORTC ^= (1 << PC1);
-			//			Timer1_Delay(1000);
+//			Timer1_Delay(1000);
 			_delay_ms(1000);
 		}
 		PORTC &= ~(1 << PC0);
@@ -123,14 +122,14 @@ int main(void)
 		g_Flag_Yellow = 0;
 
 		PORTC |= (1 << PC2);
-		//		Timer1_Delay(5000);
+//		Timer1_Delay(5000);
 		_delay_ms(5000);
 
 		g_Flag_Yellow = 1;
 		for(i = 0; i < 5; i++)
 		{
 			PORTC ^= (1 << PC1);
-			//			Timer1_Delay(1000);
+//			Timer1_Delay(1000);
 			_delay_ms(1000);
 		}
 		PORTC &= ~(1 << PC1);
