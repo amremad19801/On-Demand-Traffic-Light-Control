@@ -1,10 +1,3 @@
-/*
- * main.c
- *
- *  Created on: Sep 13, 2022
- *      Author: dell
- */
-
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
@@ -14,7 +7,6 @@ typedef unsigned short uint16;
 
 uint8 i;
 uint8 g_Flag_Yellow = 0;
-
 
 void INT0_Init(void)
 {
