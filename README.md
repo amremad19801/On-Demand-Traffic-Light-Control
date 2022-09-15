@@ -1,5 +1,5 @@
 <h1>On-Demand-Traffic-Light-Control-System</h1>
-  <p>The project is an on deman trffic light control system that contols both the traffic and pedestrian lights.</p>
+  <p>The project is an on demand traffic light control system that controls both the traffic and pedestrian lights.</p>
   <h2>Project Description</h2>
     <h3>Normal Mode</h3>
       <p>
@@ -41,8 +41,8 @@
     <h3>Hardware</h3>
       <p>
        <br>- One push button connected to INT0 pin for pedestrian.</br>
-       <br>- Three LEDs for cars - Grren, Yellow and Red connected to PORTA, PINs 0, 1 and 2.</br>
-       <br>- Three LEDs for pedestrians - Grren, Yellow and Red connected to PORTA, PINs 3, 4 and 5.</br>
+       <br>- Three LEDs for cars - Green, Yellow and Red connected to PORTA, PINs 0, 1 and 2.</br>
+       <br>- Three LEDs for pedestrians - Green, Yellow and Red connected to PORTA, PINs 3, 4 and 5.</br>
       </p>
   <h2>Files</h2>
     <p>main.c : This file contains the code of the project.</p>
