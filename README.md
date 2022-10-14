@@ -1,6 +1,16 @@
 <h1>On-Demand-Traffic-Light-Control-System</h1>
-  <p>The project is an on demand traffic light control system that controls both the traffic and pedestrian lights.</p>
   <h2>Project Description</h2>
+    <p>The project is an on demand traffic light control system that controls both the traffic and pedestrian lights.</p>
+  <h2>Project Specifications</h2>
+    <p>
+     <br>As a pedestrian when I make a short press on the crosswalk button while the cars green light is on and the pedestrian red light is off, I will wait for the            yellow lights to blink for five seconds then the cars red light is on and the pedestrian green light is on for five seconds, so that I can cross the street.        </br>
+     <br>As a pedestrian when I make a short press o the crosswalk button while the cars yellow light is blinking and pedestrian red light is on, I will wait for all            yellow lights to blink for five seconds then the cars red light is on and the pedestrian green light is on for five seconds, so that I can cross the street.        </br>
+     <br>As a pedestrian when I make a short press on the crosswalk button while the cars red light is onand pedestrian green is on, I expect nothing to be done.</br>
+     <br>As a pedestrian when I make a double press on the crosswalk button, I expect that the first press will do the action and nothing to be done after the second            press.
+     </br>
+     <br>As a pedestrian when I make a long press on the crosswalk button, I expect nothing to be done.</br>
+    </p>
+  <h2>Software Requirements</h2>
     <h3>Normal Mode</h3>
       <p>
        <br>Cars lights will be changed every five seconds starting from green then yellow then red then yellow then green.</br>
@@ -18,15 +28,6 @@
        <br>After the five seconds the pedestrian green light will be off and both the pedestrian red light and the cars green light will be on. </br>
        <br>Traffic lights signals are going to the normal mode again.</br>
       </p>
-  <h2>Project Specifications</h2>
-    <p>
-     <br>As a pedestrian when I make a short press on the crosswalk button while the cars green light is on and the pedestrian red light is off, I will wait for the            yellow lights to blink for five seconds then the cars red light is on and the pedestrian green light is on for five seconds, so that I can cross the street.        </br>
-     <br>As a pedestrian when I make a short press o the crosswalk button while the cars yellow light is blinking and pedestrian red light is on, I will wait for all            yellow lights to blink for five seconds then the cars red light is on and the pedestrian green light is on for five seconds, so that I can cross the street.        </br>
-     <br>As a pedestrian when I make a short press on the crosswalk button while the cars red light is onand pedestrian green is on, I expect nothing to be done.</br>
-     <br>As a pedestrian when I make a double press on the crosswalk button, I expect that the first press will do the action and nothing to be done after the second            press.
-     </br>
-     <br>As a pedestrian when I make a long press on the crosswalk button, I expect nothing to be done.</br>
-    </p>
   <h2>Project Components</h2>
     <h3>Micrcontroller</h3>
       <p>
